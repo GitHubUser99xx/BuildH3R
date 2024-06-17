@@ -1,0 +1,19 @@
+1	 Create two Algorand Accounts
+2.	Create an Algorand Standard Asset
+3.	Transfer the created asset to opposite account
+4.	Clawback x number of created asset
+Source-Task
+
+https://scaling-happiness-qgp455xj947fprg.github.dev/
+
+Output:
+Dispenser Address: Z5HAOXDR3V7PS4GRMILIYAHN5HGYYJWJWT2S2T5SSX46DZ7HHF6TKFHK7Q
+Creator Address: FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ
+{'address': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'amount': 0, 'amount-without-pending-rewards': 0, 'apps-local-state': [], 'apps-total-schema': {'num-byte-slice': 0, 'num-uint': 0}, 'assets': [], 'created-apps': [], 'created-assets': [], 'min-balance': 100000, 'pending-rewards': 0, 'reward-base': 0, 'rewards': 0, 'round': 28, 'status': 'Offline', 'total-apps-opted-in': 0, 'total-assets-opted-in': 0, 'total-created-apps': 0, 'total-created-assets': 0}
+Receiver Address: XVRM22KRRIS7DOGJXLYVZL4L3BL6KNYJGQMFPSEEMSBT4NF4S2BDQGUJZI
+Asset ID: 1031
+Receiver Account Asset Balance: {'asset-holding': {'amount': 10, 'asset-id': 1031, 'is-frozen': False}, 'round': 34}
+Creator Account Asset Balance: {'asset-holding': {'amount': 990, 'asset-id': 1031, 'is-frozen': False}, 'created-asset': {'clawback': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'creator': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'decimals': 0, 'default-frozen': False, 'freeze': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'manager': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'name': 'BuilH3R', 'name-b64': 'QnVpbEgzUg==', 'reserve': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'total': 1000}, 'round': 34}
+Post clawback:
+Receiver Account Asset Balance: {'asset-holding': {'amount': 5, 'asset-id': 1031, 'is-frozen': False}, 'round': 35}
+Creator Account Asset Balance: {'asset-holding': {'amount': 995, 'asset-id': 1031, 'is-frozen': False}, 'created-asset': {'clawback': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'creator': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'decimals': 0, 'default-frozen': False, 'freeze': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'manager': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'name': 'BuilH3R', 'name-b64': 'QnVpbEgzUg==', 'reserve': 'FMMWZTRT2WRUUJAXSIYEXSNRP32QAV3JVSMVMATIXCRNMK3NDQYTG4ZFKQ', 'total': 1000}, 'round': 35}
